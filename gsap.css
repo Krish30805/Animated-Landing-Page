@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: japan;
+  src: url(../8186twklausanne.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav h1 {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+nav h1 i {
+  display: inline-block;
+  rotate: 45deg;
+  font-size: 30px;
+}
+
+nav h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+nav button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: 0;
+  border-radius:12px ;
+}
+
+.center {
+  padding:20px 100px;
+  height: 70%;
+  width: 100%;
+  display: flex;
+}
+
+.center-part1 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.center-part2{
+  position: relative;
+  height: 100%;
+  width: 60%;
+  
+}
+
+.center-part1 h1 {
+  font-size: 65px;
+  font-family: japan;
+  line-height: 1.2;
+  width: 100%;
+
+}
+
+.center-part1 p {
+  font-size: 20px;
+  width: 100%;
+}
+
+.center-part1 button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 12px;
+  width: 35%;
+}
+
+
+.center-part2 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.section1bottom img {
+  height:35px;
+}
+
+#amaz {
+  height: 37px;
+}
+
+#dribble {
+  height:90px;
+}
+
+#notion {
+  height: 90px;
+}
+
+#hubspot {
+  height: 37px;
+}
+
+#netflix {
+  height: 90px;
+}
+
+#zoom {
+  height: 90px;
+}
+
+.section2 .services{
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.services h3 {
+  background-color: #9ae975;
+  font-weight: 500;
+  padding: 7px 3px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: japan;
+}
+
+.services p {
+  width: 40%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.container {
+  height: 48%;
+  width: 100%;
+  padding: 40px 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 80px;
+}
+
+.elem {
+  flex-shrink: 0;
+  height: 250px;
+  width: 46%;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 0 8px 0px black;
+  padding: 20px 10px; 
+  display: flex;
+}
+
+.elem-prt1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.elem-prt2 {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.elem-prt2 img {
+  height: 80%;
+  top: 10px;
+  right: 50px;
+  position: absolute;
+}
+
+.elem-prt1 h2 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: japan;
+  background-color: #9ae975;
+  width: 70%;
+  padding: 5px 10px;
+  border-radius:10px ;
+}
+
+.elem-prt1 h4 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 5px;
+  padding: 20px 30px 20px 0;
+}
+
+.elem-prt1 h4 i{
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.black {
+  background-color: black;
+}
+
+.line2 img{
+  border-radius: 10px;
+}
+
+.black h2 {
+  background-color: #fff;
+}
+
+
+.black img {
+  border-radius: 10px
+}
+
+.black h4 {
+  color: #fff;
+}
+
+.black h4 i{
+  background-color: #fff;
+  color: #000;
+}
